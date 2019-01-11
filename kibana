@@ -1,0 +1,17 @@
+GET mobile
+
+PUT mobile/address/1
+{
+  "name": "Apipol Sukgler",
+  "phone": "0853872788"
+}
+
+GET mobile/address/1
+
+POST mobile/address
+{
+  "name": "Apipol Sukgler",
+  "phone": "0853872788"
+}
+
+GET mobile/address/OGMiNmgBYt6UI57KsQsP
